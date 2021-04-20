@@ -1,0 +1,169 @@
+body{
+    background: radial-gradient(#023353, #15447a);
+    color: white;;
+    padding-left: 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+nav {
+    display: inline-block;
+    text-align: center;;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(62,29,93,1) 100%);
+    display: block;
+    width: 100%;
+}
+
+#wrapper{
+    margin-right: 5.5em;
+}
+
+#top-right{
+    margin-left: 400px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#top-right p{
+    margin-bottom: 4px;
+}
+
+#top-right span{
+    color: yellow;
+}
+#search{
+    display: inline-block;
+    background-color: rgb(59, 58, 58);
+    border-radius: 10px;
+    padding-bottom: 200px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: top;
+}
+
+button{
+    background-color: #044a99;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+    font-size: 12px;
+}
+
+input{
+    text-align: center;
+    color: rgb(170, 169, 169);
+    padding: 5px;
+}
+
+#nav{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 125px;
+    width: 930px;
+    background-color:   #1c5ba3;
+    box-shadow: 1px 1px black;
+}
+
+#nav li{
+    display: inline-block;
+    margin: 10px 30px 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+    width: 350px;
+    margin-left: 60px;
+    margin-right: px;
+    display: inline-block;
+}
+
+#arrows-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 150px;
+}
+
+#yellow{
+    display:inline-block;
+    font-size: 22px;
+    font-style: italic;
+    list-style: none;
+    color: rgb(255, 238, 0);
+}
+
+#middle-info{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+}
+
+#arrows{
+    display: inline-block;
+}
+
+#arrows li{
+    margin: 10px;
+}
+
+#zen{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+
+#white{
+    display: block;
+    background-color: white;
+    color: black;
+    width: 1265px;
+    margin-left: 77px;
+}
+
+#getting-started{
+    display: inline-block;
+    width: 400px;
+    margin-top: 15px;
+    vertical-align: top;
+    margin-right: 30px;
+    border-top: solid 5px rgb(65, 187, 243);
+}
+#applications{
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-top: solid 5px rgb(65, 187, 243);
+}
+
+#footer-container{
+    text-align: center;
+    margin-left: 135px;
+}
+
+.footer{
+    display: inline-block;
+    margin: 30px 30px 10px 30px;
+}
+
+#copyright{
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+a{
+    color: white;
+}
+
+span{
+    color: rgb(65, 187, 243);
+}
+
+#package{
+    font-size: 12px;
+}

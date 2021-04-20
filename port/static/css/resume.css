@@ -1,0 +1,32 @@
+body{
+    background: radial-gradient(#023353, #15447a);
+    color: white;;
+    
+    text-align: center;
+    
+}
+
+nav {
+    display: inline-block;
+    text-align: center;;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(62,29,93,1) 100%);
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+#first-list {
+    margin-right: 2.7em;
+}
+
+#second-list {
+    margin-right: 2.5em;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus C | Web Development</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/land.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="nav-links"><a href="#name">Home</a></h2>
+            <h2 class="nav-links"><a href="#about-sec">About</a></h2>
+            <h2 class="nav-links"><a href="#snp">Projects</a></h2>
+            <h2 class="nav-links"><a href="/resume">Resume</a></h2>
+            <h2 class="nav-links"><a href="https://linkedin.com/in/jesus-cruz-a779721b3" target="blank" >LinkedIn</a></h2>
+        </nav>
+    </header>
+    <div id="greetings">
+        <h1 id="name">Jesus Cruz Web Developer</h1>
+        <p id="small-greet">Striving to build beautiful products with elegant code, providing a gorgeous experience.</p>
+    </div>
+
+    <div id="about-sec">
+        <h2 class="sec-h2">About Me</h2>
+        <div id="about">
+            <p class="ab-me">Born and raised in the city of Allentown, into a Christ believing home and sport loving family. After graduationg High School in 2017, stuck between Electro-Mechanical and Electrician, but the desire and love I had for anything tech overpowered. From growing up always on top of the latest gaming news, editions, etc, I've decided to turn my passion into a career. I am a 21 year old, hard-working, driven, ready to step into the tech world as a Full Stack Web Developer. </p>
+        </div>
+    </div>
+    
+    <div id="snp">
+        <h2 class="sec-h2">Skills & Projects</h2>
+        <div id="images">
+            <img class="logo" src="{% static 'images/html.png' %}">
+            <img class="logo" src="{% static 'images/css.png' %}">
+            <img class="logo" src="{% static 'images/javascript.png' %}">
+            <img class="logo" src="{% static 'images/python.png' %}">
+            <img class="logo" src="{% static 'images/django.png' %}">
+        </div>
+        <div id="projs">
+            <div class="pro-div">
+                <img class="projim" src="{% static 'images/logreg.png' %}" alt="">
+                <a class="live" href="https://github.com/jesus189970/socail-media-project.git" target="blank">Github</a>
+                <div>
+                <p>This project was a simple social media app. One is able to create there own ueser, login afterwords,
+                    post and delete comments as well. HTML, CSS, Python, and Django were used in this project.</p>
+                    </div>
+            </div>
+            <div class="pro-div">
+                <img class="projim" src="{% static 'images/jdoe.png' %}" alt="">
+                <a class="live" href="/jdoe">Live Project</a>
+                <a class="live" href="https://github.com/jesus189970/jdoe.git" target="blank">Github</a>
+                <div>
+                <p>This project here was a made up portfolio. It was good practice for some HTML and CSS. Several
+                    photos were used, good practice of margins as well.</p>
+                    </div>
+            </div>
+            <div class="pro-div">
+                <img class="projim" src="{% static 'images/python_screen.png' %}" alt="">
+                <a class="live" href="/python">Live Project</a>
+                <a class="live" href="https://github.com/jesus189970/python_project.git" target="blank">Github</a>
+                <div>
+                <p>This here is a remake of the python website. Another good practice for HTML and CSS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/jdoe.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="home"><h2 class="nav-links">Home</h2></a> 
+            
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Jayne Doe</h1>
+            <h3 id="master">Master of the shadows and the Internet!</h3>
+        </div>
+
+        <div id="purple">
+            <div id="about"></div>
+            <img class="stack-photo" src="{% static 'images/photo_of_me.jpg' %}" alt="Photo of Me" id="myself">
+            <div id="about-description">
+                <h3>About...</h3>
+                <p>Hello! I'm an extremely driven and creative Full Stack Developer who is currently open for career
+                    oppurtunities as a front-end or back-end web developer in the Greater Seattle Area.</p>
+
+                <p>I'm a recent graduate of Coding Dojo, a coding school located in Bellevue, WA that 3 full stacks in 3
+                    months. I'm capable of learning new technologies very quickly, and am always looking for
+                    oppurtunities to further expand my skills and grow as a developer.</p>
+                <a href="">Continue Reading...</a>
+            </div>
+        </div>
+        <div id="la-mode" class="technologies">
+            <h3>La Mode</h3>
+            <img class="stack-photo" src="{% static 'images/lamode.png' %}" alt="La Mode">
+            <p>La Mode is an Ecommerce website for designed to market various clothing products. Users are able to view
+                the available garments, select their desired quantity, and compile a shopping cart for making a final
+                purchase</p>
+            <h3>Technologies:</h3>
+            <img src="{% static 'images/php.png' %}" alt="PNG">
+            <img src="{% static 'images/codeigniter.png' %}" alt="Codeigniter">
+            <img src="{% static 'images/jQuery.png' %}" alt="jQuery">
+            <img src="{% static 'images/ajax.png' %}" alt="Ajax">
+            <img src="{% static 'images/mysql.png' %}" alt="MySQL">
+            <img src="{% static 'images/HTML.png' %}" alt="HTML">
+            <img src="{% static 'images/CSS.png' %}" alt="CSS">
+            <img src="{% static 'images/bootstrap.png' %}" alt="Bootstrap">
+            <input type="submit" value="La Mode">
+        </div>
+        <div id="family-contacts" class="technologies">
+            <h3>Family Contacts</h3>
+            <img class="stack-photo" src="{% static 'images/familycontacts.png' %}" alt="Family Contacts">
+            <p>Family Contacts is a free application for managing, sharing, and visualizing your family relationships
+                for both extended and immediate family. As an essential feature of the project, your log-in information
+                determines who you can see and reveals how people are related to you.</p>
+            <h3>Technologies:</h3>
+            <img src="{% static 'images/JavaScript.png' %}" alt="JavaScript">
+            <img src="{% static 'images/mongodb.png' %}" alt="MongoDb">
+            <img src="{% static 'images/expressjs.png' %}" alt="ExpressJs">
+            <img src="{% static 'images/angular.png' %}" alt="Angular">
+            <img src="{% static 'images/nodejs.png' %}" alt="NodeJs">
+            <img src="{% static 'images/HTML.png' %}" alt="HTML">
+            <img src="{% static 'images/CSS.png' %}" alt="CSS">
+            <img src="{% static 'images/socket.png' %}" alt="Socket">
+            <input type="submit" value="Family Contacts">
+        </div>
+        <div id="fiveEleven" class="technologies">
+            <h3>fiveEleven</h3>
+            <img class="stack-photo" src="{% static 'images/fiveEleven.png' %}" alt="fiveEleven">
+            <p>Five Eleven is a data visualization project built on the Python software stack. The application
+                transforms the developer job-hunt into a more visual user friendly experience. Based on location,
+                technology popularity, and other vast data sets, users may easily visualize the varying sizes and
+                concentrations of the junior developer job market across the nation</p>
+            <h3>Technologies:</h3>
+            <img src="{% static 'images/python.png' %}" alt="Python">
+            <img src="{% static 'images/django.png' %}" alt="Django">
+            <img src="{% static 'images/d3.png' %}" alt="D3">
+            <img src="{% static 'images/angular.png" alt="Angular">
+            <img src="{% static 'images/sqlite.png' %}" alt="sqlite">
+            <img src="{% static 'images/HTML.png' %}" alt="">
+            <img src="{% static 'images/CSS.png' %}" alt="CSS">
+            <img src="{% static 'images/JavaScript.png' %}" alt="JavaScript">
+            <img src="{% static 'images/materialize.png' %}" alt="materialize">
+            <input type="submit" value="fiveEleven">
+        </div>
+    </div>
+    <div id="contact">
+        <p>jdoe@gmails.com | 206-555-1212</p>
+        <p><img src="{% static 'images/github.png' %}" alt="github">
+            <a href="">jaynedev</a>
+            <img src="{% static 'images/linkedin.png' %}" alt="Linkedin">
+            <a href="">jayne-doe</a>
+            <img src="{% static 'images/twitter.png' %}" alt="Twitter">
+            <a href="">jdtweets</a>
+            <img src="{% static 'images/codepen.png' %}" alt="codepen">
+            <a href="">jaynedev</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="python.css">
+    <link rel="stylesheet" href="{% static 'css/pyrthonone.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="home"><h2 class="nav-links">Home</h2></a>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div>
+            <img src="{% static 'images/python_pro.png' %}" alt="Python Logo">
+            <div id="top-right">
+                <p>Text Size: <span>Normal</span> | <span>Large</span></p>
+                <div id="search">
+                    <input type="text" value="Search">
+                    <button>GO</button>
+                </div>
+            </div> 
+        </div>
+        <ul id="nav">
+            <li>About</li>
+            <li>Downloads</li>
+            <li>Documentation</li>
+            <li>Community</li>
+            <li>News</li>
+            <li id="last">Events</li>
+        </ul> 
+        <div id="arrows-container">    
+            <ul id="arrows">
+                <li><a href="">Docs</a></li>
+                <li><a href="">Audio/Visual Talks</a></li>
+                <li><a href="">Beginner's Guide</a></li>
+                <li><a href="">Developer's Guide</a></li>
+                <li><a href="">PEP Index</a></li>
+                <li><a href="">Python Books</a></li>
+                <li><a href="">FAQ</a></li>
+                </ul>
+        </div>
+        <div id="middle-info">
+            <p id="paragraph">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming
+                language whose design focus emphasizes code readability. Whether for processing/analyzing data to
+                powering many well-known applications, Python is not only a great language for new programmers but also
+                powerful enough for seasoned developers building whatever they can think of.</p>
+            <ul id="yellow">
+                <li>Beautiful is better than ugly;</li>
+                <li>Explicit is better than implicit;</li>
+                <li>Simple is better than complex;</li>
+                <li>Complex is better than complicated;</li>
+                <li>Readability counts;</li>
+                <p id="zen">The Zen of Python</p>
+            </ul>
+        </div>
+        <div id="white">
+            <div id="getting-started">
+                <h3>Getting Started</h3>
+                <p>Python can be easy to pick whether you're a first time programmer or you're experienced with other
+                    languages. The following pages are a useful first step to get on your way writing programs with
+                    Python!</p>
+                <ul>
+                    <li><span>Beginner's Guide, Programmers</span></li>
+                    <li><span>Beginner's Guide, Non-Programmers</span></li>
+                    <li><span>Code sample and snippets for Beginners</span></li>
+                </ul>
+            </div>
+            <div id="applications">
+                <h3>Applications</h3>
+                <p>The <span id="package">Python Package Index (PyPI)</span> hosts thousands of third-party modules for
+                    Python. Both Python's standard library and the community-contributed modules allows for endless
+                    possibilities.</p>
+                <ul>
+                    <li><span>Web and internet Development</span></li>
+                    <li><span>Database Access</span></li>
+                    <li><span>Desktop GUIs</span></li>
+                    <li><span>Network Programming</span></li>
+                    <li><span>Software and Game Development</span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-container">
+            <p class="footer"><span>Help and General Contact</span></p>
+            <p class="footer"><span>Diversity Initiatives</span></p>
+            <p class="footer"><span>Submit Website Bugs</span></p>
+            <p id="copyright"><span>Copyright (c)2001-2016.</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
